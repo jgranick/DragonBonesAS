@@ -83,7 +83,7 @@ public final class StarlingFactory extends BaseFactory
 			if (textureAtlas is BitmapData)
 			{
 				starlingTextureAtlasData.texture = Texture.fromBitmapData(textureAtlas as BitmapData, generateMipMaps, false, textureAtlasData.scale);
-				starlingTextureAtlasData.disposeTexture = true;
+				starlingTextureAtlasData._disposeTexture = true;
 				
 				#if (starling < "2.0")
 				if (starlingTextureAtlasData.bitmapData && !Starling.handleLostContext)

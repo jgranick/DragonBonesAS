@@ -3,6 +3,7 @@ bin-debug/
 bin-release/
 bin/
 libs/
+*.DS_Store
 
 # Project property files
 .settings/
